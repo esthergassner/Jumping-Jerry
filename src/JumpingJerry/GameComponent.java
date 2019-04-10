@@ -6,6 +6,15 @@ import java.awt.*;
 
 public class GameComponent extends JComponent
 {
+    //TODO
+    //make it so that the game gets harder when the score reaches certain checkpoints
+    //make the game over check more precise
+    //restart button
+    //enhance animation - running legs, changing when hit, change at jump, smoother jump
+    //beautify aesthetics - pretty floor and background, more elements in the scene (maybe furniture?)
+    //fix font and size of score count
+    //introductory dialogue box (or splash screen of some sort) with welcome, rules and button to begin play
+
     private double tomMovement = 0.0;
     ImageIcon tomImage = new ImageIcon("tom.png");
     Image tom = tomImage.getImage();
